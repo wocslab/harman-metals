@@ -28,8 +28,7 @@ export default function ConstructionHero() {
 
   return (
     <div className="w-full relative bg-gray-100">
-      <section className="relative min-h-[600px] sm:min-h-[720px] pb-20 overflow-hidden">
-
+<section className="relative h-[950px] lg:h-[700px] pb-20 overflow-hidden">
         {/* BACKGROUND IMAGES */}
         <div className="absolute inset-0">
           {images.map((img, i) => (
@@ -96,13 +95,12 @@ export default function ConstructionHero() {
           </div>
 
           {/* METAL IMAGE SLIDER */}
-          <div className="w-full lg:w-[420px] h-[520px] flex items-center justify-center relative lg:absolute lg:right-16 lg:top-1/2 lg:-translate-y-1/2">
-
+<div className="w-full lg:w-[420px] h-[520px] flex items-center justify-center relative -mt-18 lg:mt-14 lg:absolute lg:right-16 lg:top-1/2 lg:-translate-y-1/2">
             <AnimatePresence mode="wait">
               <motion.img
                 key={metalIndex}
                 src={metals[metalIndex]}
-                className="w-[200px] sm:w-[300px] lg:w-[360px] object-contain drop-shadow-2xl absolute"
+                className="w-[500px] sm:w-[300px] lg:w-[360px] object-contain drop-shadow-2xl absolute"
                 initial={{ x: 150, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 exit={{ x: -150, opacity: 0 }}

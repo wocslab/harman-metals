@@ -1,3 +1,4 @@
+       
 "use client";
 
 import { motion } from "framer-motion";
@@ -10,16 +11,6 @@ export default function AboutPage() {
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.7 } }
-};
-
-const fadeLeft = {
-  hidden: { opacity: 0, x: -60 },
-  visible: { opacity: 1, x: 0, transition: { duration: 0.7 } }
-};
-
-const fadeRight = {
-  hidden: { opacity: 0, x: 60 },
-  visible: { opacity: 1, x: 0, transition: { duration: 0.7 } }
 };
 
 const stagger = {
@@ -36,7 +27,7 @@ return (
 
 {/* HERO */}
 
-<section className="relative h-[360px] flex items-center justify-center text-center text-white overflow-hidden">
+<section className="relative min-h-[300px] md:h-[360px] flex items-center justify-center text-center text-white overflow-hidden">
 
 <img
 src="bg1.jpg"
@@ -49,13 +40,12 @@ className="absolute w-full h-full object-cover"
 initial={{ opacity: 0, y: 40 }}
 animate={{ opacity: 1, y: 0 }}
 transition={{ duration: 0.8 }}
-className="relative z-10"
+className="relative z-10 px-4"
 >
 
-<div className="text-4xl md:text-6xl font-semibold mb-6 flex justify-center">
+<div className="text-3xl md:text-6xl font-semibold mb-6 flex justify-center">
   <SplitText
-    text="About Harman  Metals
-"
+    text="About Us"
     className="text-center"
     delay={80}
     duration={0.6}
@@ -73,85 +63,62 @@ Home ➜ About Us
 
 {/* ABOUT SECTION */}
 
-<section className="max-w-7xl mx-auto py-24 px-6">
+<section className="max-w-7xl mx-auto py-16 md:py-24 px-6">
 
-<div className="grid md:grid-cols-2 gap-16 items-center">
+<div className="grid md:grid-cols-2 gap-10 md:gap-16 items-center">
 
 {/* TEXT */}
+
 <motion.div
-  variants={fadeUp}
-  initial="hidden"
-  whileInView="visible"
-  viewport={{ once: true }}
+variants={fadeUp}
+initial="hidden"
+whileInView="visible"
+viewport={{ once: true }}
 >
 
-  <span className="inline-block bg-orange-500 text-white text-sm px-4 py-2 rounded-full mb-4">
-    About Us
-  </span>
+<span className="inline-block bg-orange-500 text-white text-sm px-4 py-2 rounded-full mb-4">
+About Us
+</span>
 
-  <h2 className="text-4xl font-bold mb-6">
-    Harman Metals TRD EST
-  </h2>
+<h2 className="text-3xl md:text-4xl font-bold mb-6">
+Harman Metals TRD EST
+</h2>
 
-  <p className="text-gray-600 leading-relaxed mb-6">
-    <b>HARMAN METALS TRD EST.</b> is one of the leading trading companies in
-    Saudi Arabia in the field of pipes, fittings and hardware. We are looking
-    ahead to be the ever-expanding stockist and project distributor of steel
-    pipes, pipe fittings, valves, flanges, pressure gauges, temperature gauges
-    and other mechanical materials required for industrial and construction
-    sectors.
-  </p>
+<p className="text-gray-600 leading-relaxed mb-6">
+<b>HARMAN METALS TRD EST.</b> is one of the leading trading companies in
+Saudi Arabia in the field of pipes, fittings and hardware. We are looking
+ahead to be the ever-expanding stockist and project distributor of steel
+pipes, pipe fittings, valves, flanges, pressure gauges, temperature gauges
+and other mechanical materials required for industrial and construction
+sectors.
+</p>
 
-  <p className="text-gray-600 leading-relaxed mb-6">
-    <b>HARMAN METALS TRD EST.</b> is dedicated to providing the best quality
-    line of products at fair prices while meeting the diverse needs of our
-    customers. Our team ensures fast delivery through dedicated professionals
-    who bring strong knowledge and industry expertise to support projects of
-    different scales.
-  </p>
+<p className="text-gray-600 leading-relaxed mb-6">
+<b>HARMAN METALS TRD EST.</b> is dedicated to providing the best quality
+line of products at fair prices while meeting the diverse needs of our
+customers. Our team ensures fast delivery through dedicated professionals
+who bring strong knowledge and industry expertise to support projects of
+different scales.
+</p>
 
-  <p className="text-gray-600 leading-relaxed mb-6">
-    We supply a comprehensive range of industrial materials including welded
-    and seamless pipes such as carbon steel, galvanized iron and stainless
-    steel pipes, as well as copper pipes, PVC, CPVC, HDPE pipes, flexible
-    pipes and related fittings. Our inventory also includes flanges, valves
-    such as ball valves, gate valves, globe valves, check valves, butterfly
-    valves, float valves and foot valves, along with butt-welding pipe
-    fittings and various types of fittings made from GI, forged steel,
-    copper, brass and stainless steel.
-  </p>
+<p className="text-gray-600 leading-relaxed mb-6">
+We supply a comprehensive range of industrial materials including welded
+and seamless pipes such as carbon steel, galvanized iron and stainless
+steel pipes, as well as copper pipes, PVC, CPVC, HDPE pipes, flexible
+pipes and related fittings.
+</p>
 
-  <p className="text-gray-600 leading-relaxed mb-6">
-    In addition, we provide grooved fittings, pipe clamps including rubber
-    clamps, clevis hangers, C-clamps and U-bolts, strainers, pressure gauges,
-    temperature gauges, water meters and expansion joints. Our product range
-    further includes gaskets such as rubber, PTFE, non-asbestos and graphite
-    gaskets, bolts, nuts, washers, threaded rods, angle bars, U-channels,
-    C-channels and sheets. We also supply automatic fire sprinklers, covers,
-    electrical materials, camlock couplings, sanitary fittings, finishing
-    materials, hydraulic fittings, pneumatic fittings and machinery tools
-    and hardware.
-  </p>
+<p className="text-gray-600 leading-relaxed mb-6">
+Our inventory also includes flanges, valves such as ball valves, gate
+valves, globe valves, check valves, butterfly valves, float valves and
+foot valves, along with butt-welding pipe fittings and various types of
+fittings made from GI, forged steel, copper, brass and stainless steel.
+</p>
 
-  <p className="text-gray-600 leading-relaxed mb-6">
-    We provide efficient arrangements for delivering materials within a short
-    period of time to help reduce project downtime and operational costs for
-    our customers. By maintaining reliable supply and availability of
-    products, we help businesses keep their stock levels at a minimum while
-    ensuring smooth project execution.
-  </p>
-
-  <p className="text-gray-600 leading-relaxed mb-6">
-    We regard our customers as our most valuable partners. Our trained and
-    experienced staff continuously strive to deliver reliable service,
-    maintain strong relationships and provide complete satisfaction through
-    professionalism and commitment.
-  </p>
-
-  <p className="text-gray-700 font-semibold">
-    Regards,<br />
-    HARMAN METALS TRD EST.
-  </p>
+<p className="text-gray-700 font-semibold">
+Regards,<br />
+HARMAN METALS TRD EST.
+</p>
 
 </motion.div>
 
@@ -168,7 +135,7 @@ className="rounded-xl overflow-hidden shadow-xl"
 
 <img
 src="bg1.jpg"
-className="w-full h-[420px] object-cover"
+className="w-full h-[280px] md:h-[420px] object-cover"
 />
 
 </motion.div>
@@ -180,7 +147,7 @@ className="w-full h-[420px] object-cover"
 
 {/* MISSION & VISION */}
 
-<section className="bg-[#2F3F44] py-24 px-6 text-white">
+<section className="bg-[#2F3F44] py-16 md:py-24 px-6 text-white">
 
 <motion.div
 variants={fadeUp}
@@ -190,7 +157,7 @@ viewport={{ once: true }}
 className="max-w-6xl mx-auto text-center mb-14"
 >
 
-<h2 className="text-4xl font-bold">
+<h2 className="text-3xl md:text-4xl font-bold">
 Mission & Vision
 </h2>
 
@@ -222,9 +189,9 @@ thickness={2}
 style={{ borderRadius: 16 }}
 >
 
-<div className="p-10">
+<div className="p-8 md:p-10">
 
-<h3 className="text-2xl font-bold mb-4">
+<h3 className="text-xl md:text-2xl font-bold mb-4">
 Our Mission
 </h3>
 
@@ -253,9 +220,9 @@ thickness={2}
 style={{ borderRadius: 16 }}
 >
 
-<div className="p-10">
+<div className="p-8 md:p-10">
 
-<h3 className="text-2xl font-bold mb-4">
+<h3 className="text-xl md:text-2xl font-bold mb-4">
 Our Vision
 </h3>
 
@@ -275,56 +242,11 @@ with our clients.
 
 </section>
 
+{/* CLIENT / BRAND SECTION */}
 
-
-{/* VALUES */}
-
-{/* <section className="py-24 px-6">
-
-<motion.div
-variants={stagger}
-initial="hidden"
-whileInView="visible"
-viewport={{ once: true }}
-className="max-w-6xl mx-auto grid md:grid-cols-3 gap-10"
->
-
-{[
-{
-title:"Premium Quality",
-desc:"We deliver only reliable industrial materials that meet high performance standards."
-},
-{
-title:"Industry Expertise",
-desc:"Years of experience allow us to provide the right solutions for complex industrial needs."
-},
-{
-title:"Customer Commitment",
-desc:"We focus on building long-term partnerships through trust, reliability, and service."
-}
-].map((item,index)=>(
-<motion.div
-variants={fadeUp}
-key={index}
-className="bg-white rounded-xl shadow-md p-8 text-center hover:shadow-xl transition"
->
-
-<h3 className="font-bold text-lg mb-3">
-{item.title}
-</h3>
-
-<p className="text-gray-600 text-sm leading-relaxed">
-{item.desc}
-</p>
-
-</motion.div>
-))}
-
-</motion.div>
-
-</section> */}
 <BrandSection/>
 
 </div>
 );
 }
+
