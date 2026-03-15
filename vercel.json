@@ -1,8 +1,19 @@
 {
-  "routes": [
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+
+  "redirects": [
     {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "source": "/(.*)\\.html",
+      "destination": "/$1",
+      "permanent": true
+    }
+  ],
+
+  "rewrites": [
+    {
+      "source": "/((?!sitemap.xml|robots.txt).*)",
+      "destination": "/index.html"
     }
   ]
 }
