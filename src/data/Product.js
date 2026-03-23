@@ -244,12 +244,12 @@ export const products = [
   slug:"guages-water-meters",
   img:"https://deltametalsksa.com/wp-content/uploads/2024/08/14-1-1536x1536.png",
   items:[
-    { name:"Pressure Gauge", img:"https://deltametalsksa.com/wp-content/uploads/2024/10/Pressure-Gauge.png"},
-    { name:"Water Meter", img:"https://deltametalsksa.com/wp-content/uploads/2024/10/Water-Meter.png"},
-    { name:"Test Plug", img:"https://deltametalsksa.com/wp-content/uploads/2024/10/Test-Plug.png"},
-    { name:"Digital Pressure Gauge", img:"https://deltametalsksa.com/wp-content/uploads/2024/10/Digital-Pressure-Gauge.png"},
-    { name:"Industrial Gauge", img:"https://deltametalsksa.com/wp-content/uploads/2024/10/Industrial-Gauge.png"},
-    { name:"Flow Meter", img:"https://deltametalsksa.com/wp-content/uploads/2024/10/Flow-Meter.png"}
+    { name:"Pressure Gauge", img:"https://media.rs-online.com/image/upload/bo_1.5px_solid_white,b_auto,c_pad,dpr_2,f_auto,h_399,q_auto,w_710/c_pad,h_399,w_710/Y2227716-01?pgw=1"},
+    { name:"Water Meter", img:"https://image.made-in-china.com/2f0j00zZNknORaZPqt/Brass-Water-Meter-Price-ISO-4064-Class-B-Water-Meter.webp"},
+    { name:"Test Plug", img:"https://www.testplug.ae/wp-content/uploads/2024/12/drain-test-plug-1-1.webp"},
+    { name:"Digital Pressure Gauge", img:"https://www.wika.com/media/Images/Product_700x700/Calibration/cpg1500_en_co_rs_w700_h700_image.jpg"},
+    { name:"Industrial Gauge", img:"https://www.valleyind.com/wp-content/uploads/2019/06/40-series.jpg"},
+    { name:"Flow Meter", img:"https://suremeter.com/wp-content/uploads/2022/08/Liquid-Turbine-Flow-Meter-E-Digital-Type-900x1200-1.jpg"}
   ]
 },
 {
