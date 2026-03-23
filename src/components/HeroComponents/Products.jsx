@@ -130,7 +130,7 @@ export default function ProductsSection() {
           {/* LEFT */}
           <button
             onClick={prevSlide}
-            className="absolute left-0 z-10 bg-white shadow p-3 rounded-full"
+            className="absolute left-0 z-10 bg-[#0F5A5F] text-white shadow p-3 rounded-full"
           >
             <FiChevronLeft />
           </button>
@@ -181,7 +181,7 @@ export default function ProductsSection() {
           {/* RIGHT */}
           <button
             onClick={nextSlide}
-            className="absolute right-0 z-10 bg-white shadow p-3 rounded-full"
+            className="absolute right-0 z-10 bg-[#0F5A5F] text-white shadow p-3 rounded-full"
           >
             <FiChevronRight />
           </button>
