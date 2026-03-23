@@ -8,82 +8,82 @@ const products = [
   {
     name: "BMI & GI Fittings",
     slug: "bmi-gi-fittings",
-    img: "https://deltametalsksa.com/wp-content/uploads/2024/08/01-1-1536x1536.png",
+    img:"/products/Bmi.png" ,
   },
   {
     name: "Forged & SS Fittings",
     slug: "forged-ss-fittings",
-    img: "https://deltametalsksa.com/wp-content/uploads/2024/08/02-1-1536x1536.png",
+    img: "/products/forged.png",
   },
   {
     name: "Grooved Fittings",
     slug: "grooved-fittings",
-    img: "https://deltametalsksa.com/wp-content/uploads/2024/08/03-1-1536x1536.png",
+    img: "/products/grooved.png",
   },
   {
     name: "Pipes (ERW, SMLS, GI)",
     slug: "pipes-erw-smls-gi",
-    img: "https://deltametalsksa.com/wp-content/uploads/2024/08/04-1-1536x1536.png",
+    img: "/products/pipes.png",
   },
   {
     name: "Valves",
     slug: "valves",
-    img: "https://deltametalsksa.com/wp-content/uploads/2024/08/05-1-1536x1536.png",
+    img: "/products/valves.png",
   },
   {
     name: "CS Welded Fittings",
     slug: "cs-welded-fittings",
-    img: "https://deltametalsksa.com/wp-content/uploads/2024/08/06-1-1536x1536.png",
+    img: "/products/welded.png",
   },
   {
     name: "Flanges & Fittings",
     slug: "flanges-fittings",
-    img: "https://deltametalsksa.com/wp-content/uploads/2024/08/07-1-1536x1536.png",
+    img: "/products/flanges.png",
   },
   {
     name: "Bolt, Nut, Washer",
     slug: "bolt-nut-washer",
-    img: "https://deltametalsksa.com/wp-content/uploads/2024/08/08-1-1536x1536.png",
+    img: "/products/bolt.png",
   },
   {
     name: "Gaskets & Glue",
     slug: "gaskets-glue",
-    img: "https://deltametalsksa.com/wp-content/uploads/2024/08/09-1-1536x1536.png",
+    img: "/products/gaskets.png",
   },
   {
     name: "Copper & Brass Fittings",
     slug: "copper-brass-fittings",
-    img: "https://deltametalsksa.com/wp-content/uploads/2024/08/10-1-1536x1536.png",
+    img: "/products/copper.png",
   },
   {
     name: "Safety Valves",
     slug: "safety-valves",
-    img: "https://deltametalsksa.com/wp-content/uploads/2024/08/11-1-1536x1536.png",
+    img: "/products/safety-valves.png",
   },
   {
     name: "PVC / CPVC / PPR / HDPE",
     slug: "pvc-cpvc-ppr-hdpe",
-    img: "https://deltametalsksa.com/wp-content/uploads/2024/08/12-1-1536x1536.png",
+    img: "/products/pvc.png",
   },
   {
     name: "Flexible Joints",
     slug: "flexible-joints",
-    img: "https://deltametalsksa.com/wp-content/uploads/2024/08/13-1-1536x1536.png",
+    img: "/products/flexible.png",
   },
   {
     name: "Guages & Water Meters",
     slug: "guages-water-meters",
-    img: "https://deltametalsksa.com/wp-content/uploads/2024/08/14-1-1536x1536.png",
+    img: "/products/meteres.png",
   },
   {
     name: "Hardware & Tools",
     slug: "hardware-tools",
-    img: "https://deltametalsksa.com/wp-content/uploads/2024/08/15-1-1536x1536.png",
+    img: "/products/hardware.png",
   },
   {
     name: "Safety Items",
     slug: "safety-items",
-    img: "https://deltametalsksa.com/wp-content/uploads/2024/08/16-1-1536x1536.png",
+    img: "/products/safety.png",
   },
 ];
 
@@ -137,7 +137,7 @@ className="relative z-10"
 <div className="text-4xl md:text-6xl font-semibold mb-6 flex justify-center">
   <SplitText
     text="Products"
-    className="text-center"
+    className="text-center" 
     delay={80}
     duration={0.6}
   />

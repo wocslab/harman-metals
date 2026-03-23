@@ -82,16 +82,22 @@ export default function ConstructionHero() {
               and industrial hardware designed to meet the highest standards of durability, safety, and performance.
             </motion.p>
 
-            <motion.button
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.7, delay: 0.4 }}
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="mt-6 sm:mt-8 bg-orange-500 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-full font-medium hover:bg-orange-600 transition"
-            >
-              Get Free Consultation →
-            </motion.button>
+          <a
+  href="https://wa.me/966534591537"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <motion.button
+    initial={{ opacity: 0, y: 40 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.7, delay: 0.4 }}
+    whileHover={{ scale: 1.05 }}
+    whileTap={{ scale: 0.95 }}
+    className="mt-6 sm:mt-8 bg-orange-500 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-full font-medium hover:bg-orange-600 transition"
+  >
+    Get Free Consultation →
+  </motion.button>
+</a>
           </div>
 
           {/* METAL IMAGE SLIDER */}

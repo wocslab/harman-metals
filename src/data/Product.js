@@ -25,7 +25,7 @@ export const products = [
 {
   name:"Forged & SS Fittings",
   slug:"forged-ss-fittings",
-  img:"https://deltametalsksa.com/wp-content/uploads/2024/08/02-1-1536x1536.png",
+  img:"/products/forged.png",
   items:[
     { name:"Elbow 45°", img:"https://deltametalsksa.com/wp-content/uploads/2024/09/2.-Elbow-45.png"},
     { name:"Elbow 90°", img:"https://deltametalsksa.com/wp-content/uploads/2024/09/1.-Elbow-90.png"},

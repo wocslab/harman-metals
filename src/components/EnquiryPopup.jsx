@@ -19,7 +19,7 @@ Name: ${form.name}
 Phone: ${form.phone}
 Message: ${form.message}`;
 
-    const whatsappURL = `https://wa.me/91XXXXXXXXXX?text=${encodeURIComponent(text)}`;
+    const whatsappURL = `https://wa.me/966534591537?text=${encodeURIComponent(text)}`;
     window.open(whatsappURL, "_blank");
   };
 
