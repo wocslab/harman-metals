@@ -107,7 +107,7 @@ Contact Our Team
               <Phone size={20}/>
             </div>
 
-            <p className="font-semibold">053 537 0665</p>
+            <p className="font-semibold">050 357 0063</p>
             <p className="text-sm text-gray-500">Customer Support</p>
           </motion.div>
 
@@ -208,8 +208,8 @@ Contact Our Team
             </p>
 
           <iframe
-  src="https://www.google.com/maps?q=Baladiyah%20Street%20Al%20Aziziyah%20Jeddah&output=embed"
-  className="w-full h-[260px] rounded-xl shadow-md "
+  src="https://www.google.com/maps?q=26.3345,43.9738&z=15&output=embed"
+  className="w-full h-[260px] rounded-xl shadow-md"
   loading="lazy"
 />
 
